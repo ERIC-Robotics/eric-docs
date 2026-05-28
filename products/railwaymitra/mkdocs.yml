@@ -1,0 +1,94 @@
+site_name: RailwayMitra Docs
+site_url: https://docs.ericrobotics.com/railwaymitra/
+site_description: User guide and operational documentation for S.A.A.R.T.H.I. (RailwayMitra)
+site_author: ERIC Robotics Pvt. Ltd.
+
+docs_dir: docs
+site_dir: ../../site/railwaymitra
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  homepage: https://docs.ericrobotics.com
+  generator: false
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+copyright: "&copy; 2026 ERIC Robotics Pvt. Ltd. — Internal Use Only"
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - System Overview: getting-started/overview.md
+      - Unboxing & Setup: getting-started/unboxing-setup.md
+      - Power-On Sequence: getting-started/power-on.md
+      - First Run Checklist: getting-started/first-run.md
+  - Operations:
+      - Pre-Deployment SOP: operations/pre-deployment.md
+      - Field Operation: operations/field-operation.md
+      - Data Collection: operations/data-collection.md
+      - Post-Run Procedures: operations/post-run.md
+  - Software:
+      - Dashboard Guide: software/dashboard.md
+      - Data Export & Reports: software/data-export.md
+      - Firmware Updates: software/firmware-update.md
+  - Maintenance:
+      - Routine Maintenance: maintenance/routine.md
+      - Troubleshooting: maintenance/troubleshooting.md
+      - Spare Parts & Consumables: maintenance/spare-parts.md
+  - Reference:
+      - Technical Specifications: reference/specifications.md
+      - Safety Guidelines: reference/safety.md
+      - Glossary: reference/glossary.md
+      - FAQ: reference/faq.md
