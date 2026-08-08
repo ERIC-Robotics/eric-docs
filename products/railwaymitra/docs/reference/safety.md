@@ -1,7 +1,7 @@
 # Safety Guidelines
 
 !!! danger "Read Before Operating"
-    All operators must read and understand these safety guidelines before operating S.A.A.R.T.H.I.
+    All operators must read and understand these safety guidelines before operating RailwayMitra
 
 ## General Safety
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-S.A.A.R.T.H.I. (**S**ystem for **A**utonomous **A**ssessment of **R**ailway **T**rack **H**ealth **I**nfrastructure), marketed as **RailwayMitra**, is an autonomous track geometry inspection system developed by ERIC Robotics Pvt. Ltd.
+**RailwayMitra** is an autonomous track geometry inspection system developed by ERIC Robotics Pvt. Ltd.
 
 It is designed to replace manual and semi-manual track inspection methods with a self-propelled, sensor-fused platform capable of measuring track geometry parameters continuously at inspection speeds.
 

@@ -1,8 +1,6 @@
-# S.A.A.R.T.H.I. Documentation
+# RailwayMitra Documentation
 
-**System for Autonomous Assessment of Railway Track Health Infrastructure**
-
-Welcome to the official documentation for S.A.A.R.T.H.I. (RailwayMitra) — ERIC Robotics' autonomous track geometry inspection system.
+Welcome to the official documentation for RailwayMitra — ERIC Robotics' autonomous track geometry inspection system.
 
 !!! warning "Internal Document"
     This documentation is for authorised ERIC Robotics personnel and approved client representatives only.
@@ -21,9 +19,9 @@ Welcome to the official documentation for S.A.A.R.T.H.I. (RailwayMitra) — ERIC
 
 ---
 
-## What is S.A.A.R.T.H.I.?
+## What is RailwayMitra?
 
-S.A.A.R.T.H.I. is an autonomous track geometry inspection system that measures critical rail parameters including:
+RailwayMitra is an autonomous track geometry inspection system that measures critical rail parameters including:
 
 - **Gauge** — distance between inner faces of rail heads
 - **Cross-level** — relative elevation difference between left and right rails

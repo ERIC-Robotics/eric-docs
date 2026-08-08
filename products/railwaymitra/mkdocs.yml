@@ -1,6 +1,6 @@
 site_name: RailwayMitra Docs
 site_url: https://docs.ericrobotics.com/railwaymitra/
-site_description: User guide and operational documentation for S.A.A.R.T.H.I. (RailwayMitra)
+site_description: User guide and operational documentation for RailwayMitra
 site_author: ERIC Robotics Pvt. Ltd.
 
 docs_dir: docs
